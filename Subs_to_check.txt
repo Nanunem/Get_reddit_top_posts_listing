@@ -1,0 +1,15 @@
+#Sub name  #Number of comment threshold # Number of upvotes threshold
+
+france 100 100
+kpop 100 100
+korea 30 100
+korean 20 20
+LearnJapanese 100 50
+languagelearning 100 100
+AskEngineers 100 100
+recruitinghell 100 100
+antiwork 1000 20000
+fitness 100 100
+bodyweightfitness 100 100
+xxfitness 100 100
+books 100 100
