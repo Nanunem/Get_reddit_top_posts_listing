@@ -39,10 +39,10 @@ class Post :
 
         for post in sub.hot():
             if post.num_comments > limit_comments and post.ups > limit_upvotes:
-                output_file.write("Titre : " + post.title+"    ")
-                output_file.write("Lien : " + post.url+"    ")
-                output_file.write("Nb de commentaires : " + str(post.num_comments)+"    ")
-                output_file.write("Nb de upvotes : " + str(post.ups)+"    \n")
+                output_file.write("Title : " + post.title+"    ")
+                output_file.write("Link : " + post.url+"    ")
+                output_file.write("Comments number : " + str(post.num_comments)+"    ")
+                output_file.write("Upvotes number : " + str(post.ups)+"    \n")
 
     def get_posts_top(self, output_file, limits):
         sub = self.reddit_read_only.subreddit(self.sub_name)
@@ -53,10 +53,10 @@ class Post :
 
         for post in sub.top(time_filter="day"):
             if post.num_comments > limit_comments and post.ups > limit_upvotes:
-                output_file.write("Titre : " + post.title+"    ")
-                output_file.write("Lien : " + post.url+"    ")
-                output_file.write("Nb de commentaires : " + str(post.num_comments)+"    ")
-                output_file.write("Nb de upvotes : " + str(post.ups)+"    \n")
+                output_file.write("Title : " + post.title+"    ")
+                output_file.write("Link : " + post.url+"    ")
+                output_file.write("Comments number : " + str(post.num_comments)+"    ")
+                output_file.write("Upvotes number : " + str(post.ups)+"    \n")
 
 
 list_file_path = "Subs_to_check.txt"
